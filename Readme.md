@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Муратбек Утеулиев](https://up.htmlacademy.ru/adaptive/16/user/441737).
-* Наставник: `Неизвестно`.
+* Наставник: `Виктория Коваленко`.
 
 ---
 
