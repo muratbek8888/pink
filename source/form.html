@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Личный проект Пинк</title>
+	</head>
+	<body>
+
+		<header class="page-header">
+			<a class="page-header__logo">
+				<img class="page-header__logo-image" src="http://placehold.it/77x22" width="77" height="22" alt="main-logo">
+			</a>
+			<nav class="main-nav">
+				<button class="main-nav__toggle" type="button">Открыть меню</button>
+				<div class="main-nav__wrapper">
+					<ul class="main-nav__list site-list">
+						<li class="site-list__item site-list__item--active">
+							<a>Главная</a>
+						</li>
+						<li class="site-list__item">
+							<a href="photo.html">Фотографии</a>
+						</li>
+						<li class="site-list__item">
+							<a href="competition.html">Конкурс</a>
+						</li>
+						<li class="site-list__item">
+							<a href="#">HTML Academy</a>
+						</li>
+					</ul>
+					<div class="header_image">
+						<p class="header_image-comment">Конкурс на самое безбашенное путешествие с Пинк</p>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<main class="page-main-form">
+			<h1 class="visually-hidden">Страница формы</h1>
+			<section class="form_field">
+        <p>Поделитесь своей историей и получите шанс выиграть ценный приз —
+         1000 миль на вашу бонусную карту! Пожалуйста, заполните</p>
+        <form method="get" action="https://echo.htmlacademy.ru">
+      	  <label>Фамилия:
+      	    <input class="surname_field" type="text" name="surname" placeholder="Укажите фамилию" required>
+      	  </label>
+      	  <label>Имя:
+      	    <input class="name_field" type="text" name="name" placeholder="Введите ваше имя" required>
+      	  </label>
+      	  <label>Отчество:
+      	    <input class="second-name_field" type="text" name="second-name" placeholder="Ну и отчество тоже" required>
+      	  </label>
+
+      	  <div class="form_feedback_field">
+      	    <h3>Ваши безбашенные достижения в путешествии</h3>
+      	    <label id="selfie">Сделал селфи с акулой</label>
+      	    <input type="checkbox" name="selfie" id="selfie">
+      	    <label id="sunbath">Обгорел на пляже</label>
+      	    <input type="checkbox" name="sunbath" id="sunbath">
+      	    <label id="meeting">Видел Чака Норриса</label>
+      	    <input type="checkbox" name="meeting" id="meeting">
+      	    <label id="buying">Накупил сувениров</label>
+      	    <input type="checkbox" name="buying" id="buying">
+      	    <label id="self_control">Удержал башню</label>
+      	    <input type="checkbox" name="self_control" id="self_control">
+      	    <label id="behave">Разгромил отель</label>
+      	    <input type="checkbox" name="behave" id="behave">
+          </div>
+
+          <div class="form_address_field">
+          	<label>Номер телефона
+          		<input type="phone" name="phone" placeholder="Номер, пожалуйста" required>
+          	</label>
+          	<label>Адрес почты
+          		<input type="email" name="email" placeholder="Введите почту" required>
+          	</label>
+          </div>
+
+          <div class="form_apps_field">
+          	<label for="ios">Pink для iOS</label>
+          	<input type="radio" name="ios" id="ios">
+          	<label for="android">Pink на Android</label>
+          	<input type="radio" name="android" id="android">
+          	<label for="windows-phone">Windows Phone</label>
+          	<input type="radio" name="windows-phone" id="windows-phone">
+          </div>
+
+          <div class="form_describe_field">
+          	<h3>Опишите свои эмоции</h3>
+          	<textarea cols="10" rows="10" name="text" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+          	<input type="submit" name="submit" value="Отправить форму">
+          </div>
+        </form>
+
+        <p class="required_fields"><sup>*</sup>Обязательные поля</p>
+      </section>
+		</main>
+
+		<footer class="form_page-footer">
+			<div class="footer_logo">
+				<img src="http://placehold.it/155x40" width="155" height="40" alt="footer-logo">
+			</div>
+			<div class="footer-socials">
+				<ul class="socials">
+          <li><a class="social_btn social_btn-tw" href="https://www.twitter.com"></a></li>
+          <li><a class="social_btn social_btn-fb" href="https://www.facebook.com"></a></li>
+          <li><a class="social_btn social_btn-yout" href="https://www.youtube.com"></a></li>
+        </ul>
+        <p class="footer-copyright">
+          <b>Разработано</b>
+          <a class="htmlacademy_logo" href="https://htmlacademy.ru">
+            <img src="http://placehold.it/31x34" width="31" height="34" alt="Логотип HTML Academy">
+          </a>
+        </p>
+			</div>
+		</footer>
+	</body>
+</html>
