@@ -2,12 +2,12 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Личный проект Пинк</title>
+    <title>HTML Academy: Пинк</title>
   </head>
   <body>
 
     <header class="page-header">
-      <a class="page-header__logo">
+      <a class="page-header__logo logo">
         <img class="page-header__logo-image" src="http://placehold.it/77x22" width="77" height="22" alt="main-logo">
       </a>
       <nav class="main-nav">
@@ -28,18 +28,17 @@
             </li>
           </ul>
           <div class="header-promo">
-            <img class="header-promo__image" src="http://placehold.it/77x22" width="77" height="22" alt="header-image">
-            <p class="header-promo__image-comment">Конкурс на самое безбашенное путешествие с Пинк</p>
+            <p class="header-promo__comment">Конкурс на самое безбашенное путешествие с Пинк</p>
           </div>
         </div>
       </nav>
     </header>
 
-    <main class="form-page-main">
+    <main class="form-main-page">
       <h1 class="visually-hidden">Страница формы</h1>
-      <section class="form">
-        <p>Поделитесь своей историей и получите шанс выиграть ценный приз —
+      <p class="form-page-main__comment">Поделитесь своей историей и получите шанс выиграть ценный приз —
          1000 миль на вашу бонусную карту! Пожалуйста, заполните</p>
+      <section class="form">
         <form class="form-field" method="get" action="https://echo.htmlacademy.ru">
 
           <div class="form-field__name form-name">
@@ -56,17 +55,17 @@
 
           <div class="form-field__feedback form-feedback">
             <h3>Ваши безбашенные достижения в путешествии</h3>
-            <label class="form-feedback__item feedback-label" id="selfie">Сделал селфи с акулой</label>
+            <label class="form-feedback__item feedback-label" for="selfie">Сделал селфи с акулой</label>
             <input class="form-feedback__item feedback-input" type="checkbox" name="selfie" id="selfie">
-            <label class="form-feedback__item feedback-label" id="sunbath">Обгорел на пляже</label>
+            <label class="form-feedback__item feedback-label" for="sunbath">Обгорел на пляже</label>
             <input class="form-feedback__item feedback-input" type="checkbox" name="sunbath" id="sunbath">
-            <label class="form-feedback__item feedback-label" id="meeting">Видел Чака Норриса</label>
+            <label class="form-feedback__item feedback-label" for="meeting">Видел Чака Норриса</label>
             <input class="form-feedback__item feedback-input" type="checkbox" name="meeting" id="meeting">
-            <label class="form-feedback__item feedback-label" id="buying">Накупил сувениров</label>
+            <label class="form-feedback__item feedback-label" for="buying">Накупил сувениров</label>
             <input class="form-feedback__item feedback-input" type="checkbox" name="buying" id="buying">
-            <label class="form-feedback__item feedback-label" id="self_control">Удержал башню</label>
+            <label class="form-feedback__item feedback-label" for="self_control">Удержал башню</label>
             <input class="form-feedback__item feedback-input" type="checkbox" name="self_control" id="self_control">
-            <label class="form-feedback__item feedback-label" id="behave">Разгромил отель</label>
+            <label class="form-feedback__item feedback-label" for="behave">Разгромил отель</label>
             <input class="form-feedback__item feedback-input" type="checkbox" name="behave" id="behave">
           </div>
 
@@ -91,30 +90,30 @@
           <div class="form-field__describe form-describe">
             <h3>Опишите свои эмоции</h3>
             <textarea class="form-describe__textarea" cols="10" rows="10" name="text" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
-            <input class="form-describe__button type="submit" name="submit" value="Отправить форму">
+            <input class="form-describe__button" type="submit" name="submit" value="Отправить форму">
           </div>
         </form>
 
-        <p class="required_fields"><sup>*</sup>Обязательные поля</p>
+        <p class="required__fields"><sup>*</sup>Обязательные поля</p>
       </section>
     </main>
 
-    <footer class="page-footer">
-      <div class="footer_logo">
+    <footer class="footer-page">
+      <div class="footer-page__logo logo-item">
         <img src="http://placehold.it/155x40" width="155" height="40" alt="footer-logo">
       </div>
       <div class="footer-socials">
-        <ul class="socials">
-          <li><a class="social_btn social_btn-tw" href="https://www.twitter.com"></a></li>
-          <li><a class="social_btn social_btn-fb" href="https://www.facebook.com"></a></li>
-          <li><a class="social_btn social_btn-yout" href="https://www.youtube.com"></a></li>
+        <ul class="social-btn">
+          <li><a class="social-btn__item social__btn-tw" href="https://www.twitter.com"></a></li>
+          <li><a class="social-btn__item social__btn-fb" href="https://www.facebook.com"></a></li>
+          <li><a class="social-btn__item social__btn-yout" href="https://www.youtube.com"></a></li>
         </ul>
-        <p class="footer-copyright">
+        <div class="copyright">
           <b>Разработано</b>
-          <a class="htmlacademy_logo" href="https://htmlacademy.ru">
+          <a class="academy-logo" href="https://htmlacademy.ru">
             <img src="http://placehold.it/31x34" width="31" height="34" alt="Логотип HTML Academy">
           </a>
-        </p>
+        </div>
       </div>
     </footer>
   </body>
