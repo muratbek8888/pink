@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Пинк</title>
+  </head>
+  <body>
+
+    <header class="page-header">
+      <a class="page-header__logo logo">
+        <img class="page-header__logo-image logo__image" src="http://placehold.it/77x22" width="77" height="22" alt="main-logo">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
+            <li class="site-list__item site-list__item--active">
+              <a>Главная</a>
+            </li>
+            <li class="site-list__item">
+              <a href="photo.html">Фотографии</a>
+            </li>
+            <li class="site-list__item">
+              <a href="competition.html">Конкурс</a>
+            </li>
+            <li class="site-list__item">
+              <a href="#">HTML Academy</a>
+            </li>
+          </ul>
+          <div class="photo-header">
+            <img class="photo-header__image" src="http://placehold.it/77x22" width="77" height="22" alt="header-image">
+            <p class="photo-header__image-comment">Фотографии пользователей</p>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page-main-photo">
+      <h1 class="visually-hidden">Страница фото</h1>
+
+      <section class="posts">
+        <p class="posts-info">Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
+
+        <div class="posts__panorama">
+          <h3>Панорама дня</h3>
+          <img class="posts__panorama-image" src="http://placehold.it/77x22" width="77" height="22" alt="posts__panorama-image">
+          <span class="posts__panorama-user-name"><b>Анна</b>(5 минут назад)</span>
+          <p class="posts__panorama-comment">Прыгать или нет? Напишите в коментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!
+          </p>
+          <span class="posts__panorama-rating"><b>сердечко</b>нравится: 215</span>
+        </div>
+
+        <div class="posts__gallery-car">
+          <img class="posts__gallery__image-car" src="http://placehold.it/77x22" width="77" height="22" alt="photo-field__image-2">
+          <span class="posts__gallery__author"><b>Левон</b>(5 часов назад)</span>
+          <p class="posts__gallery__comment">Вчера он на луну летал, сегодня в руки к нам попал.</p>
+          <span class="posts__gallery__rating"><b>сердечко</b>нравится: 356</span>
+        </div>
+
+        <div class="posts__gallery-music">
+          <img class="posts__gallery__image-music" src="http://placehold.it/77x22" width="77" height="22" alt="photo-field__image-3">
+          <span class="posts__gallery__author"><b>Антон</b>(12 часов назад)</span>
+          <p class="posts__gallery__comment">Соседи будут рады!</p>
+          <span class="posts__gallery__rating"><b>сердечко</b>нравится: 666</span>
+        </div>
+
+        <div class="posts__gallery-bld">
+          <img class="posts__gallery__image-bld" src="http://placehold.it/77x22" width="77" height="22" alt="photo-field__image-4">
+          <span class="posts__gallery__author"><b>Борис</b>(20 часов назад)</span>
+          <p class="posts__gallery__comment">Здесь могла быть ваша цитата о высоком и вечном.</p>
+          <span class="posts__gallery__rating"><b>сердечко</b>нравится: 215</span>
+        </div>
+
+        <div class="posts__gallery-kuban">
+          <img class="posts__gallery__image-kuban" src="http://placehold.it/77x22" width="77" height="22" alt="photo-field__image-5">
+          <span class="posts__gallery__author"><b>Сергей</b>(25 часов назад)</span>
+          <p class="posts__gallery__comment">Самая кубанская в мире!</p>
+          <span class="posts__gallery__rating"><b>сердечко</b>нравится: 4</span>
+        </div>
+
+        <div class="posts__gallery-nature">
+          <img class="posts__gallery__image-nature" src="http://placehold.it/77x22" width="77" height="22" alt="photo-field__image-6">
+          <span class="posts__gallery__author"><b>Максим</b>(40 часов назад)</span>
+          <p class="posts__gallery__comment">Где снег-то?</p>
+          <span class="posts__gallery__rating"><b>сердечко</b>нравится: 150</span>
+        </div>
+
+        <div class="posts__gallery-fly">
+          <img class="posts__gallery__image-fly" src="http://placehold.it/77x22" width="77" height="22" alt="photo-field__image-7">
+          <span class="posts__gallery__author"><b>Надежда</b>(45 часов назад)</span>
+          <p class="posts__gallery__comment">Всем GM и взаимные лайки!</p>
+          <span class="posts__gallery__rating"><b>сердечко</b>нравится: 2560</span>
+        </div>
+      </section>
+
+      <section class="photo-avice">
+        <p class="photo-advice__comment">Затмите их всех!</p>
+        <p class="photo-advice__posting">Выкладывайте все, что накопилось в телефоне!</p>
+      </section>
+
+      <section class="photo-post">
+        <div class="photo-post__field">
+          <img class="photo__post-image" src="http://placehold.it/77x22" width="77" height="22" alt="photo_post-image">
+        </div>
+
+        <form class="photo-post__form" method="get" action="https://echo.htmlacademy.ru">
+          <div class="photo-post__item">
+            <input class="photo-post__input" type="range" name="range" min="0" max="100" step="1" value="0">
+            <button class="photo-post__btn-confirm" type="submit">Запостить</button>
+            <button class="photo-post__btn-cancel" type="reset">Отмена</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer-page">
+      <div class="footer-page__logo logo-item">
+        <img src="http://placehold.it/155x40" width="155" height="40" alt="footer-logo">
+      </div>
+      <div class="footer-socials">
+        <ul class="social-btn">
+          <li><a class="social-btn__item social-btn__item--tw" href="https://www.twitter.com"></a></li>
+          <li><a class="social-btn__item social-btn__item--fb" href="https://www.facebook.com"></a></li>
+          <li><a class="social-btn__item social-btn__item--youtube" href="https://www.youtube.com"></a></li>
+        </ul>
+        <div class="copyright">
+          <b>Разработано</b>
+          <a class="academy-logo" href="https://htmlacademy.ru">
+            <img class="academy-logo__image" src="http://placehold.it/31x34" width="31" height="34" alt="Логотип HTML Academy">
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
